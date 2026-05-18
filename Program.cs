@@ -8,15 +8,12 @@ class Program
 
         while (true)
         {
-Console.WriteLine("Только сложение работает");
+            Console.WriteLine("Операция: сложение");
 
             Console.WriteLine("\nВыберите действие:");
             Console.WriteLine("1. Ввести A");
             Console.WriteLine("2. Ввести B");
             Console.WriteLine("3. +");
-            Console.WriteLine("4. -");
-            Console.WriteLine("5. *");
-            Console.WriteLine("6. /");
 
             Console.Write("Ваш выбор: ");
             string choice = Console.ReadLine();
@@ -34,18 +31,6 @@ Console.WriteLine("Только сложение работает");
             else if (choice == "3")
             {
                 Console.WriteLine("Результат: " + (a + b));
-            }
-            else if (choice == "4")
-            {
-                Console.WriteLine("Результат: " + (a - b));
-            }
-            else if (choice == "5")
-            {
-                Console.WriteLine("Результат: " + (a * b));
-            }
-            else if (choice == "6")
-            {
-                Console.WriteLine("Результат: " + (a / b));
             }
         }
     }
