@@ -8,6 +8,8 @@ class Program
 
         while (true)
         {
+Console.WriteLine("Только сложение работает");
+
             Console.WriteLine("\nВыберите действие:");
             Console.WriteLine("1. Ввести A");
             Console.WriteLine("2. Ввести B");
